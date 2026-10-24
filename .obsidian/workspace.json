@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "23415734a4abca2f",
+        "id": "de6990c8ef1e8f72",
         "type": "tabs",
         "children": [
           {
-            "id": "e29810e4be0ab626",
+            "id": "cae31af4ffcdb6fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "New tab"
             }
           }
         ]
@@ -99,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,8 +183,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e29810e4be0ab626",
+  "active": "cae31af4ffcdb6fb",
   "lastOpenFiles": [
-    "Index.md"
+    "config/web-clipper/obsidian-web-clipper-settings.json",
+    "config/web-clipper/tiendung-second-brain-clipper.json",
+    "config/web-clipper/README.md",
+    "config/web-clipper/second-brain-template.json",
+    "config/web-clipper",
+    "config",
+    "raw/assets/GraphQL Admin API reference.md",
+    "Clippings/GraphQL Admin API reference.md",
+    "Clippings",
+    "Index.md",
+    "Untitled.canvas"
   ]
 }
