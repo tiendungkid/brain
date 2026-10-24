@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "de6990c8ef1e8f72",
+        "id": "39063607f8d3ef1f",
         "type": "tabs",
         "children": [
           {
-            "id": "cae31af4ffcdb6fb",
+            "id": "df6d3bf3bcd8a397",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "raw/Kinh nghiệm làm việc với Shopify.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Kinh nghiệm làm việc với Shopify"
             }
           }
         ]
@@ -183,8 +187,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cae31af4ffcdb6fb",
+  "active": "df6d3bf3bcd8a397",
   "lastOpenFiles": [
+    "wiki/log.md",
+    "raw/Kinh nghiệm làm việc với Shopify.md",
     "config/web-clipper/obsidian-web-clipper-settings.json",
     "config/web-clipper/tiendung-second-brain-clipper.json",
     "config/web-clipper/README.md",

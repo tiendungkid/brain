@@ -99,7 +99,7 @@ When the user asks you to lint or health-check the wiki:
 
 Each entry in `wiki/index.md` is one line:
 
-    - [[Page Name]] — one-line summary
+    - [[page-name|Page Name]] — one-line summary
 
 Organized under category headers: Sources, Entities, Concepts, Synthesis.
 
@@ -119,9 +119,14 @@ Filenames use **kebab-case** with `.md` extension. Page titles inside the file u
 - Concept pages: `wiki/concepts/concept-name.md` → `# Concept Name`
 - Synthesis pages: `wiki/synthesis/comparison-topic.md` → `# Comparison Topic`
 
-When creating `[[wikilinks]]`, use the page title (Title Case), not the filename:
-- Correct: `[[Entity Name]]`
-- Wrong: `[[entity-name]]`
+Obsidian resolves links by **filename**, not by the title inside the page. So every `[[wikilink]]` must be `[[filename-without-extension|Title Case]]`:
+- Correct: `[[entity-name|Entity Name]]`
+- Wrong: `[[Entity Name]]` — points to a non-existent `Entity Name.md` and breaks the graph
+- Wrong: `[[entity-name]]` — resolves, but displays the raw slug
+
+This format overrides any `[[Page Name]]` examples in the second-brain skills. When checking links (e.g. during lint), the target is the part before `|` and must match an existing filename in `wiki/`.
+
+Filenames must be unique across all of `wiki/`, regardless of subdirectory, so links never become ambiguous.
 
 To slugify a title into a filename: lowercase, replace spaces with hyphens, remove special characters, trim to reasonable length.
 
