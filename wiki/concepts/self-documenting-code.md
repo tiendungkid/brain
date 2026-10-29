@@ -1,8 +1,8 @@
 ---
 tags: [engineering-practices]
-sources: [PHP Laravel - Kinh nghiệm code.md]
+sources: [PHP Laravel experience.md]
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-29
 ---
 
 # Self Documenting Code
@@ -26,4 +26,4 @@ if (! $secret || ! $signature) {
 
 Đây là lỗi phổ biến của AI agent, xem [[ai-generated-code-pitfalls|AI Generated Code Pitfalls]]. Liên quan chặt với [[explaining-variables|Explaining Variables]].
 
-Nguồn: [[php-laravel-kinh-nghiem-code|PHP Laravel - Kinh Nghiệm Code]].
+Nguồn: [[php-laravel-experience|PHP Laravel Experience]].

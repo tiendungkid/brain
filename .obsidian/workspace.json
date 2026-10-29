@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "18ff76388ff84cbb",
+        "id": "61f6c54c60b3d9a0",
         "type": "tabs",
         "children": [
           {
-            "id": "5d6603aef4b9a7a3",
+            "id": "50f18b161b128610",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -183,25 +183,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5d6603aef4b9a7a3",
+  "active": "50f18b161b128610",
   "lastOpenFiles": [
-    "raw/PHP Laravel - Kinh nghiệm code.md",
-    "wiki/index.md",
     "raw/Senior developer experience.md",
-    "wiki/concepts/sedh44unB",
-    "wiki/entities/sedzzaSLk",
-    "wiki/entities/sedrmS1k0",
+    "tools/jetbrains/README.md",
+    "raw/PHP Laravel experience.md",
+    "tools/jetbrains/README.md.tmp.25124.d3b379cb3ec6",
+    "tools/jetbrains/inspect-summary.py.tmp.25124.cb213fb0a2e6",
+    "tools/jetbrains/inspect-summary.py.tmp.25124.1b8595f4d795",
+    "tools/jetbrains/inspect-summary.py.tmp.25124.8ece8d43936e",
+    "tools/jetbrains/sedSPGnvZ",
+    "tools/jetbrains/inspect-summary.py",
+    "tools/jetbrains/inspect-summary.py.tmp.25124.d4db85b651d2",
+    "tools/jetbrains/phpstorm-inspect.sh",
+    "tools/jetbrains/phpstorm-inspect.sh.tmp.25124.a3fd50a73b07",
+    "sed1msxav",
+    "wiki/index.md",
     "raw/Kinh nghiệm làm việc với Shopify.md",
     "wiki/log.md",
-    "config/web-clipper/obsidian-web-clipper-settings.json",
-    "config/web-clipper/tiendung-second-brain-clipper.json",
     "config/web-clipper/README.md",
-    "config/web-clipper/second-brain-template.json",
-    "config/web-clipper",
-    "config",
     "raw/assets/GraphQL Admin API reference.md",
     "Clippings/GraphQL Admin API reference.md",
-    "Clippings",
     "Index.md",
     "Untitled.canvas"
   ]

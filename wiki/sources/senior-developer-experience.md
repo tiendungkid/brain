@@ -2,18 +2,18 @@
 tags: [engineering-practices, ai-engineering]
 sources: [Senior developer experience.md]
 created: 2026-10-28
-updated: 2026-10-28
+updated: 2026-10-29
 ---
 
 # Senior Developer Experience
 
 **Source:** Senior developer experience.md
-**Date ingested:** 2026-10-28
+**Date ingested:** 2026-10-28, cập nhật 2026-10-29
 **Type:** notes
 
 ## Summary
 
-Ghi chú kinh nghiệm phát triển phần mềm, áp dụng cho AI agent xuyên suốt quá trình làm việc. Gồm hai loại tài liệu bàn giao agent nên sinh ra.
+Ghi chú kinh nghiệm phát triển phần mềm, áp dụng cho AI agent xuyên suốt quá trình làm việc. Gồm hai loại tài liệu bàn giao agent nên sinh ra và một coding convention.
 
 ### 1. Deployment checklist
 
@@ -31,6 +31,13 @@ Ghi chú kinh nghiệm phát triển phần mềm, áp dụng cho AI agent xuyê
 - Ví dụ: Shopify yêu cầu app dùng Shopify AI Toolkit security scan toàn bộ project; dev fix theo báo cáo nhưng QA không hiểu ngôn ngữ của dev.
 - Phải hỏi dev trước khi generate file.
 
+### 3. Coding convention (thêm 2026-10-29)
+
+- Dùng JetBrains inspection để code "gọn" và tối ưu hơn.
+- Inspection giúp AI agent đặt tên biến tốt hơn, viết khối code dài dòng thành gọn, phát hiện lỗi cơ bản, gợi ý cú pháp mới nhanh và gọn hơn.
+- Tham khảo tool trong thư mục `tools/jetbrains` của vault.
+- Ví dụ: closure `function ($a, $b) { return $a + $b; }` → arrow function `fn (int $a, int $b): int => $a + $b`.
+
 ## Key Claims
 
 - AI agent nên chủ động đề xuất deploy checklist sau khi xong task lớn.
@@ -38,14 +45,17 @@ Ghi chú kinh nghiệm phát triển phần mềm, áp dụng cho AI agent xuyê
 - Thông tin CI/CD của project nên được lưu vào `CLAUDE.md` để không hỏi lại.
 - Việc dev tự fix (hotfix, security fix) cần một QA checklist trung gian vì QA không đọc được báo cáo kỹ thuật.
 - Agent phải hỏi người dùng/dev trước khi generate cả hai loại file.
+- JetBrains inspection giúp AI agent viết code gọn hơn và bắt lỗi cơ bản.
 
 ## Entities Mentioned
 
 - [[claude-code|Claude Code]] — hook và file `CLAUDE.md` lưu ngữ cảnh project
 - [[shopify-app-security-checks|Shopify App Security Checks]] — ví dụ nguồn phát sinh việc cần QA checklist
+- [[phpstorm|PhpStorm]] — JetBrains inspection dùng làm coding convention
 
 ## Concepts Covered
 
 - [[ai-agent-handoff-documents|AI Agent Handoff Documents]] — chủ đề chung
 - [[deployment-checklist|Deployment Checklist]] — mục 1
 - [[qa-quick-checklist|QA Quick Checklist]] — mục 2
+- [[agent-self-inspection|Agent Self Inspection]] — mục 3

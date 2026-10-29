@@ -1,8 +1,8 @@
 ---
 tags: [shopify-platform, ai-engineering]
-sources: [PHP Laravel - Kinh nghiệm code.md, Senior developer experience.md]
+sources: [PHP Laravel experience.md, Senior developer experience.md]
 created: 2026-10-27
-updated: 2026-10-28
+updated: 2026-10-29
 ---
 
 # Shopify App Security Checks
@@ -15,4 +15,4 @@ Công cụ kiểm tra bảo mật cho Shopify app, thuộc Shopify AI Toolkit. �
 
 Shopify yêu cầu app dùng công cụ này scan toàn bộ project. Kết quả là danh sách tính năng dính lỗi, dev fix theo báo cáo. Vì báo cáo viết bằng ngôn ngữ kỹ thuật, cần một [[qa-quick-checklist|QA Quick Checklist]] để QA biết Shopify yêu cầu gì, dev đã làm gì và cần test gì.
 
-Nguồn: [[php-laravel-kinh-nghiem-code|PHP Laravel - Kinh Nghiệm Code]], [[senior-developer-experience|Senior Developer Experience]].
+Nguồn: [[php-laravel-experience|PHP Laravel Experience]], [[senior-developer-experience|Senior Developer Experience]].

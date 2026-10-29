@@ -1,8 +1,8 @@
 ---
 tags: [ai-engineering, engineering-practices]
-sources: [Senior developer experience.md]
+sources: [Senior developer experience.md, PHP Laravel experience.md]
 created: 2026-10-28
-updated: 2026-10-28
+updated: 2026-10-29
 ---
 
 # AI Agent Handoff Documents
@@ -24,5 +24,7 @@ Hai tài liệu có thể tham chiếu nhau: QA checklist ghi rõ case nào ch�
 - **Lưu ngữ cảnh để không hỏi lại.** Thông tin ổn định của project (có CI/CD không, CI/CD lo những gì) lưu vào `CLAUDE.md` của [[claude-code|Claude Code]].
 - **Dịch sang ngôn ngữ người đọc.** Chỉ ghi việc người đọc thực sự phải làm, kèm lý do ngắn gọn.
 - **Kích hoạt bằng hook.** Nhắc người dùng khi agent hoàn thành task, thay vì trông vào việc người dùng nhớ ra.
+
+Trước khi bàn giao, agent tự chạy inspection và sửa sạch lỗi trên code đã viết: [[agent-self-inspection|Agent Self Inspection]].
 
 Nguồn: [[senior-developer-experience|Senior Developer Experience]].

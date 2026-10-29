@@ -1,8 +1,8 @@
 ---
 tags: [engineering-practices]
-sources: [PHP Laravel - Kinh nghiệm code.md]
+sources: [PHP Laravel experience.md]
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-29
 ---
 
 # Explaining Variables
@@ -29,4 +29,4 @@ return hash_equals(hash_hmac('sha256', $message, $secret), $signature);
 
 AI agent đặc biệt hay viết kiểu lồng này, xem [[ai-generated-code-pitfalls|AI Generated Code Pitfalls]]. Là một dạng cụ thể của [[self-documenting-code|Self Documenting Code]].
 
-Nguồn: [[php-laravel-kinh-nghiem-code|PHP Laravel - Kinh Nghiệm Code]].
+Nguồn: [[php-laravel-experience|PHP Laravel Experience]].

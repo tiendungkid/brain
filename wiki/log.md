@@ -15,3 +15,8 @@ Skipped Kinh nghiệm làm việc với Shopify.md (empty, only a title) — ing
 Processed Senior developer experience.md. Created 5 new pages, updated 1 existing page ([[shopify-app-security-checks|Shopify App Security Checks]]).
 New entities: [[claude-code|Claude Code]]. New concepts: [[ai-agent-handoff-documents|AI Agent Handoff Documents]], [[deployment-checklist|Deployment Checklist]], [[qa-quick-checklist|QA Quick Checklist]].
 QA checklist format taken from the author's example file (linked in the page). Kinh nghiệm làm việc với Shopify.md was removed from raw/ by the author; no longer pending.
+
+## [2026-10-29] ingest | PHP Laravel Experience
+Re-ingested PHP Laravel experience.md (renamed from PHP Laravel - Kinh nghiệm code.md; added tool 3 and section 5 PhpStorm inspect) and the new section 3 Coding convention of Senior developer experience.md. Created 2 new pages, updated 11 existing pages.
+Renamed source page php-laravel-kinh-nghiem-code → [[php-laravel-experience|PHP Laravel Experience]] and fixed all inbound links and sources frontmatter.
+New entities: [[phpstorm|PhpStorm]]. New concepts: [[agent-self-inspection|Agent Self Inspection]].

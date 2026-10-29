@@ -50,3 +50,21 @@ Khi phải hotfix một tính năng hoặc fix sau khi scan security,... với c
 Ví dụ: Shopify yêu cầu các app sử dụng Shopify AI toolkit security để scan toàn bộ project xem có dính lỗi bảo mật nào không. Sau khi đã scan xong và trả về 1 danh sách các tính năng dính lỗi, dev thực hiện fix trên các báo cáo đó nhưng QA đọc thì không hiểu ngôn ngữ của dev. Vì vậy cần có 1 file trung gian giúp QA hiểu được Shopify yêu cầu gì? Dev đã làm những gì? QA cần test gì?
 
 Việc này cũng cần phải hỏi dev trước khi generate file.
+
+### 3. Coding convention
+
+Sử dụng Jetbrains inspection để code "gọn" và tối ưu hơn.
+Jetbrains inspection là 1 tính năng giúp các AI agent làm tốt hơn trong việc đặt tên biến, xử lý khối code dối thành gọn, phát hiện các lỗi cơ bản, gợi ý các cú pháp mới nhanh và gọn hơn.
+
+Tham khảo [tools](/tools/jetbrains/README.MD)
+
+Ví dụ:
+```php
+// Bad
+$calculator = function ($a, $b) {
+	return $a + $b;
+}
+
+// Good
+$calculator = fn (int $a, int $b): int => $a + $b;
+```

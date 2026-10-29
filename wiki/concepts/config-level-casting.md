@@ -1,8 +1,8 @@
 ---
 tags: [engineering-practices, laravel]
-sources: [PHP Laravel - Kinh nghiệm code.md]
+sources: [PHP Laravel experience.md]
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-29
 ---
 
 # Config Level Casting
@@ -21,4 +21,4 @@ $secret = (string) config('services.shopify.secret');
 
 Trong [[laravel|Laravel]], `env()` chỉ nên gọi trong file config; ép kiểu và giá trị mặc định đặt cạnh nhau ở đó là tự nhiên nhất.
 
-Nguồn: [[php-laravel-kinh-nghiem-code|PHP Laravel - Kinh Nghiệm Code]]. Xem thêm [[ai-generated-code-pitfalls|AI Generated Code Pitfalls]].
+Nguồn: [[php-laravel-experience|PHP Laravel Experience]]. Xem thêm [[ai-generated-code-pitfalls|AI Generated Code Pitfalls]].

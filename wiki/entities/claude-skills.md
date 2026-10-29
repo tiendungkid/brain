@@ -1,8 +1,8 @@
 ---
 tags: [ai-engineering]
-sources: [PHP Laravel - Kinh nghiệm code.md]
+sources: [PHP Laravel experience.md]
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-29
 ---
 
 # Claude Skills
@@ -11,4 +11,4 @@ Bộ skill cho Claude (repo `Jeffallan/claude-skills`). Skill `php-pro` được
 
 - Link: <https://github.com/Jeffallan/claude-skills/blob/main/skills/php-pro/SKILL.md>
 
-Nguồn: [[php-laravel-kinh-nghiem-code|PHP Laravel - Kinh Nghiệm Code]].
+Nguồn: [[php-laravel-experience|PHP Laravel Experience]].

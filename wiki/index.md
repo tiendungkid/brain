@@ -4,8 +4,8 @@ Master catalog of all wiki pages. Updated on every ingest.
 
 ## Sources
 
-- [[php-laravel-kinh-nghiem-code|PHP Laravel - Kinh Nghiệm Code]] — Những điểm cần sửa khi code PHP/Laravel cùng AI agent
-- [[senior-developer-experience|Senior Developer Experience]] — Kinh nghiệm cho AI agent: deploy checklist và QA checklist
+- [[php-laravel-experience|PHP Laravel Experience]] — Lỗi hay sửa khi code PHP/Laravel cùng AI agent, PhpStorm inspect
+- [[senior-developer-experience|Senior Developer Experience]] — Deploy checklist, QA checklist, coding convention
 
 ## Entities
 
@@ -13,6 +13,7 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[claude-code|Claude Code]] — AI coding agent; hook và CLAUDE.md lưu ngữ cảnh project
 - [[claude-skills|Claude Skills]] — Bộ skill cho Claude, dùng `php-pro` cho code PHP
 - [[shopify-app-security-checks|Shopify App Security Checks]] — Công cụ kiểm tra bảo mật Shopify app (AI Toolkit)
+- [[phpstorm|PhpStorm]] — IDE PHP của JetBrains; inspection và Inspect CLI làm chuẩn code cho agent
 
 ## Concepts
 
@@ -23,5 +24,6 @@ Master catalog of all wiki pages. Updated on every ingest.
 - [[ai-agent-handoff-documents|AI Agent Handoff Documents]] — Tài liệu bàn giao agent sinh ra sau khi xong việc
 - [[deployment-checklist|Deployment Checklist]] — Checklist việc làm tay trước/sau merge, bỏ phần CI/CD đã lo
 - [[qa-quick-checklist|QA Quick Checklist]] — File giúp QA test việc dev tự phát sinh (hotfix, security fix)
+- [[agent-self-inspection|Agent Self Inspection]] — Agent tự chạy inspection, sửa sạch lỗi trước khi báo xong
 
 ## Synthesis
